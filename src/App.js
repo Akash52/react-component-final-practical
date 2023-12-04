@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Register from "./components/auth/Register";
 import HomeScreen from "./components/HomeScreen";
+import Login from "./components/auth/Login";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </>
