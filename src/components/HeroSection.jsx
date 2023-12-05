@@ -279,7 +279,7 @@ const HeroSection = () => {
         </Transition>
       </Popover>
 
-      <main className="lg:relative  py-8">
+      <main className="lg:relative">
         <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16 text-left">
             <p className="bg-gray-100 w-fit py-2 mb-4 rounded-2xl pr-3 flex justify-center items-center font-normal">
@@ -375,7 +375,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full bg-[#0F5D66]">
+        <div className="relative w-full h-64 sm:h-72 md:h-80 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full bg-[#0F5D66]">
           <img
             className="absolute inset-0 w-full  h-full object-cover"
             src="https://i.ibb.co/gMtVmqh/Microsoft-Teams-image-5.png"
