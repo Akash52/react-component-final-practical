@@ -4,7 +4,7 @@ import { products } from "../data";
 const ProductScreen = () => {
   return (
     <>
-      <div className="relative max-w-2xl mx-auto py-16 px-4 sm:px-6 lg:max-w-7xl lg:py-20 lg:px-8 -mb-4">
+      <div className="relative max-w-2xl mx-auto py-16 px-4 sm:px-6 lg:max-w-7xl lg:py-20 lg:px-8 -mb-4 plus-jakra-font-normal">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-10 sm:tracking-tight lg:text-6xl text-center">
             Culture of financial discipline
