@@ -1,15 +1,16 @@
 import HeroSection from "./HeroSection";
-import ProductScreen from "./ProductScreen";
-import ResourcesScreen from "./ResourcesScreen";
-import ExpComp from "./ExpComp";
+
+import FeatureSection from "./FeatureSection";
+import { TestimonialSection } from "./TestimonialSection";
+import FooterComponent from "./FooterComponent";
 
 const HomeScreen = () => {
   return (
     <>
       <HeroSection />
-      <ExpComp />
-      <ProductScreen />
-      <ResourcesScreen />
+      <FeatureSection />
+      <TestimonialSection />
+      <FooterComponent />
     </>
   );
 };

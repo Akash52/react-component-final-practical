@@ -51,12 +51,12 @@ const HeroSection = () => {
                 )}
               </Popover>
 
-              <a
-                href="#"
+              <Link
+                to="/product"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Product
-              </a>
+              </Link>
               <Popover className="relative">
                 {({ open }) => (
                   <>
@@ -66,7 +66,7 @@ const HeroSection = () => {
                         "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-200"
                       )}
                     >
-                      <span>Resources</span>
+                      <Link to="/resources">Resources</Link>
                       <ChevronDownIcon
                         className={classNames(
                           open ? "text-gray-600" : "text-gray-400",
@@ -135,19 +135,20 @@ const HeroSection = () => {
                   >
                     Solution
                   </a>
-
-                  <a
-                    href="#"
+                  <Link
+                    to="/product"
                     className="text-base font-medium text-gray-500 hover:text-gray-900"
                   >
                     Product
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+
+                  <Link
+                    to="/resources"
                     className="text-base font-medium text-gray-500 hover:text-gray-900"
                   >
                     Resources
-                  </a>
+                  </Link>
+
                   <a
                     href="#"
                     className="text-base font-medium text-gray-500 hover:text-gray-900"
